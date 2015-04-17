@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'pry'
 
-describe Classy do
+describe Classy::API do
   before do
     @keys = Classy::Configuration::VALID_CONFIG_KEYS
   end
